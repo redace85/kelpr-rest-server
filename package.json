@@ -1,0 +1,17 @@
+{
+  "name": "kelpr-rest-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@keplr-wallet/cosmos": "^0.12.196",
+    "base64-js": "^1.5.1",
+    "express": "^4.21.2"
+  }
+}

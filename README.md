@@ -1,2 +1,1 @@
-# kelpr-rest-server
-rest api server for @kelpr-cosmos
+tiny server for signdata serilized
