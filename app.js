@@ -19,6 +19,14 @@ app.get("/status", (request, response) => {
    response.send(status);
 });
 
+app.get("/version", (request, response) => {
+   const status = {
+      "Version": "v-1.0.0"
+   };
+   
+   response.send(status);
+});
+
 function build_res(code, msg, data) {  
    return {
       code,
